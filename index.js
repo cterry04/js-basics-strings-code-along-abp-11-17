@@ -2,4 +2,4 @@
 let currentUser= 'Chris Terry'
 const welcomeMessage = "Welcome to Flatbook, Chris Terry!";
 const excitedWelcomeMessage = "WELCOME TO FLATBOOK, CHRIS TERRY!"
-const shortGreeting = "Welcome, C!"
+const shortGreeting = "Welcome, ${currentUser.slice(0,1)}!"
